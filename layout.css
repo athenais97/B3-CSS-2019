@@ -1,0 +1,60 @@
+body{
+  background-color: white;
+}
+
+.sec1{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/large/01-snub-nosed-monkey.jpg');
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 640px;
+  text-align: center;
+}
+h3{
+  color: white;
+  border-radius: 25px;
+  background: #661FFF;
+  padding: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+  @media only screen and (max-width: 1024px){
+
+  	body{
+  		background-color: #E43F6F;
+  	}
+}
+@media only screen and (max-width: 667px){
+
+  body{
+    background-color: #F56476;
+  }
+}
+@media only screen and (max-width: 640px){
+
+  body{
+    background-color: #BE3E82;
+  }
+}
