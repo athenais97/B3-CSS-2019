@@ -7,11 +7,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('images/large/01-snub-nosed-monkey.jpg');
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 640px;
-  text-align: center;
+  background: url('images/large/01-snub-nosed-monkey.jpg') top center;
+  background-size: cover;
+  min-height: 80vh;
 }
 h3{
   color: white;
@@ -26,6 +24,7 @@ h3{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding-top: 50px;
 }
 .row {
   display: flex;
@@ -39,6 +38,14 @@ h3{
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+.sec3{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
   @media only screen and (max-width: 1024px){
