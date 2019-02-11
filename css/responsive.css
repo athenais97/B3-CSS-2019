@@ -1,0 +1,35 @@
+.sec-bg-cover{
+  background-image: url("../images/large/cute-ape.jpg");
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+h1{
+  color: white;
+  font-family: Helvetica;
+  font-size: 40px;
+  background-color: black;
+}
+
+.fixed-background{
+
+  background-image: url("../images/large/orangutan.jpg");
+  min-height: 80vh;
+  margin-top: 50px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.responsive-image{
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

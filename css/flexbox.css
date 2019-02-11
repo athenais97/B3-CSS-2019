@@ -1,0 +1,40 @@
+
+.flex-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.flex-images > img {
+  max-height: 200px;
+    object-fit: none;
+    width: auto;
+    margin-top: 10px;
+}
+
+.col h1{
+  font-size: 26px;
+  font-family: Helvetica;
+  border-left: 3px solid lightblue;
+}
+
+.column{
+           width: 100%;
+           height: auto;
+           margin-bottom: 2%;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           margin-top: 50px;
+       }
+       .col{
+           margin:1%;
+           text-align: justify;
+       }
+
+@media screen and (min-width: 960px)
+.flex-images > img {
+    max-height: 200px;
+    object-fit: none;
+    width: auto;
+    margin-top: 10px;

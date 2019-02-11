@@ -1,0 +1,28 @@
+
+  .grid-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    padding-top: 30px;
+    grid-gap: 1em;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+
+.grid-layout p{
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+h2{
+  font-size: 26px;
+  font-family: Helvetica;
+  margin-top: 15px;
+}
+
+.grid{
+      background-color: white;
+      padding-bottom: 25px;
+}

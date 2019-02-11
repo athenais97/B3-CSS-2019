@@ -1,0 +1,46 @@
+.sec {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.sec1{
+background: url('../images/large/01-snub-nosed-monkey.jpg') top center no-repeat;
+}
+
+.sec2{
+background: url('../images/large/gorilla.jpg') top center no-repeat;
+}
+
+.sec3{
+background: url('../images/large/monkey3_large.jpg') top center no-repeat;
+}
+
+.sec4{
+background: url('../images/large/cute-ape.jpg') top center no-repeat;
+}
+
+.sec h3{
+    color: white;
+    font-family: Helvetica;
+    font-size: 40px;
+  }
+
+a .sec{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+a:hover .sec{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+
+}
+
+animation: underline 0.9s 0.6s cubic-bezier(0, 0, 0, 1.25) forwards;
